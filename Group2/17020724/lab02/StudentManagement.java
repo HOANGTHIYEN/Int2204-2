@@ -55,7 +55,7 @@ public class StudentManagement{
 	static int count = 0;
 	static String gr = "INT22042";
 	public static void main (String[] args){
-	Student s1	= new Student("Nguyen Thu Hang","17020724","17020724@vnu.edu.vn");
+	Student s1 = new Student("Nguyen Thu Hang","17020724","17020724@vnu.edu.vn");
 	Student s2 = new Student ("NTH","9909","nth@vnu.edu.vn");
 	Student s3 = new Student ("xyz","909","xyz@vnu.edu.vn");
 	Student s4 = new Student();
@@ -86,7 +86,7 @@ public class StudentManagement{
 	public static void removeStudent(String id){
       		int dem=count;
 		for(int i=0,k=0; i<count; i++){
-        			if(!students[i].getID().equals(id)) {
+        		if(!students[i].getID().equals(id)) {
 				students[k]=students[i];	
 				k++; dem--;
 			}
