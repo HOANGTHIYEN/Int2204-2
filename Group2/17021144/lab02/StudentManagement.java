@@ -65,13 +65,12 @@ public class StudentManagement {
         int n = 6;
       	for(int i=0;i<6;i++) {
       		if(sv[i].getId().equals(id)) {
-      			for(int j=i;j<5;j++) {
+      		      for(int j=i;j<5;j++) {
       				sv[j] = sv[j+1];
-      			}
+      			     }
       			n--;
       			break;
-      		}
-      	}
-	}
-    
+      		   }
+      	      }
+	} 
 }
